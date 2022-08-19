@@ -74,19 +74,19 @@ sudo docker-compose up -d
 sudo docker-compose stop
 ```
 ***
-```http://0.0.0.0:8000/api/``` - api проекта
+```http://0.0.0.0:8000/api/``` - all api of the project
 
-```http://0.0.0.0:8000/api/clients/``` - клиенты
+```http://0.0.0.0:8000/api/clients/``` - clients
 
-```http://0.0.0.0:8000/api/mailings/``` - рассылки
+```http://0.0.0.0:8000/api/mailings/``` - mailings
 
-```http://0.0.0.0:8000/api/mailings/fullinfo/``` - общая статистика по всем рассылкам
+```http://0.0.0.0:8000/api/mailings/fullinfo/``` - full info about mailings
 
-```http://0.0.0.0:8000/api/mailings/<pk>/info/``` - детальная статистика по конкретной рассылке
+```http://0.0.0.0:8000/api/mailings/<pk>/info/``` - detailed information about specific mailing 
 
-```http://0.0.0.0:8000/api/messages/``` - сообщения
+```http://0.0.0.0:8000/api/messages/``` - messages
 
-```http://0.0.0.0:8000/docs/``` - docs проекта
+```http://0.0.0.0:8000/docs/``` - docs of the project
 
 ```http://0.0.0.0:5555``` - celery flower
 
